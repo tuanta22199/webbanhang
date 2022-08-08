@@ -1,0 +1,199 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 1000px;
+}
+
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    min-width: 1000px;
+    margin: 0 auto;
+}
+
+.container header {
+    background-image: url('/images/2209a8e7cb17f54fc6e9a0ee207a027d9c04a18292f560f201pimgpsh_fullsize_distr_800x300.png');
+    padding-bottom: 200px;
+}
+
+.container nav {
+    background-color: black;
+    min-height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    line-height: 50px;
+}
+
+.container nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0 12px;
+}
+
+.container nav a:hover {
+    background-color: white;
+    color: black;
+    display: inline-block;
+    font-size: 19px;
+}
+
+.container article {
+
+    height: 650px;
+    width: 85%;
+    float: left;
+    /* background-color: rgb(223, 219, 219); */
+
+}
+
+.container aside {
+
+    height: 650px;
+    float: right;
+    width: 15%;
+}
+
+.container footer {
+    border-top: 1px solid black;
+    height: 100px;
+    clear: both;
+    background-color: rgb(223, 219, 219);
+}
+
+iframe[name=page] {
+    width: 100%;
+    min-height: 650px;
+}
+
+.container aside {
+    background-color: rgb(223, 219, 219);
+
+}
+
+.container aside ul {
+    padding: 0px;
+
+}
+
+
+.container aside li {
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.container aside li:hover a {
+    background-color: orangered;
+    font-size: 22px;
+    padding-left: 50px;
+
+}
+
+.container aside a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    line-height: 45px;
+    padding-left: 22px;
+}
+
+.container aside a:hover {
+    color: black;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.container footer {
+    display: block;
+    height: 120px;
+}
+
+#toogle-menu {
+    display: none;
+}
+
+.container footer .tieude {
+    min-height: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.container footer .phude {
+    font-size: 12px;
+    padding: 0 50px;
+    min-height: 40px;
+
+}
+
+.container>footer>.tieude>p {
+    padding-left: 50px;
+    font-weight: 700;
+
+}
+
+.column{
+    display: none;
+}
+
+/* Tab let*/
+@media screen and (max-width:768px) {
+    .container header {
+        display: none;
+    }
+
+    .container nav {
+        background-color: black;
+        width: 375px;
+        justify-content: center;
+        text-align: center;
+        line-height: 50px;
+    }
+
+    .container nav a {
+        color: white;
+        text-decoration: none;
+        padding: 0 12px;
+        font-size: 10px;
+    }
+
+    .container nav a:hover {
+        background-color: white;
+        color: black;
+        display: inline-block;
+        font-size: 19px;
+
+    }
+
+    
+
+    .phukien{
+        display: none;
+    }
+
+    .container article {
+
+        
+        width: 375px;
+       
+        /* background-color: rgb(223, 219, 219); */
+    
+    }
+
+    .container aside {
+
+        display: none;
+    }
+
+    .container footer {
+       display: none;
+    }
+}
+
+/* sanpham */
+
